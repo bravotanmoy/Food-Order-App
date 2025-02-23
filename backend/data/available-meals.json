@@ -1,9 +1,16 @@
 [
   {
+    "id": "m0",
+    "name": "Daab chingri",
+    "price": "9.75",
+    "description": "Daab chingri, also known as chingri daab, is a Bengali prawn curry, cooked and served in a green coconut shell. Daab Chingri. Alternative names.",
+    "image": "images/daab-chingri.jpg"
+  },
+  {
     "id": "m1",
     "name": "Mac & Cheese",
     "price": "8.99",
-    "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+    "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped w ith crispy breadcrumbs. A classic comfort food.",
     "image": "images/mac-and-cheese.jpg"
   },
   {
