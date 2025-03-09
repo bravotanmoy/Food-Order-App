@@ -1,12 +1,11 @@
-import Button from './UI/Button.jsx';
-import logoImg from '../assets/logo.jpg';
-
-import CartContext from '../store/CartContext.jsx';
-import UserProgressContext from '../store/UserProgressContext.jsx';
 import { useContext } from 'react';
 
-export default function Header() {
+import Button from './UI/Button.jsx';
+import logoImg from '../assets/logo.jpg';
+import CartContext from '../store/CartContext.jsx';
+import UserProgressContext from '../store/UserProgressContext.jsx';
 
+export default function Header() {
   const cartCtx = useContext(CartContext);
   const userProgressCtx = useContext(UserProgressContext);
 
@@ -17,7 +16,6 @@ export default function Header() {
   function handleShowCart() {
     userProgressCtx.showCart();
   }
-
 
   return (
     <header id="main-header">

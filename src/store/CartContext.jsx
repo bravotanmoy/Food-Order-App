@@ -7,7 +7,7 @@ const CartContext = createContext({
 });
 
 function cartReducer(state, action) {
-  if (action.type === 'ADD_ITEM') { 
+  if (action.type === 'ADD_ITEM') {
     const existingCartItemIndex = state.items.findIndex(
       (item) => item.id === action.item.id
     );
@@ -68,8 +68,6 @@ export function CartContextProvider({ children }) {
     addItem,
     removeItem
   };
-
-  console.log(cartContext);
 
   return (
     <CartContext.Provider value={cartContext}>{children}</CartContext.Provider>
